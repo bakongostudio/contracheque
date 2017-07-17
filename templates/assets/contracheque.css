@@ -1,0 +1,62 @@
+body{font-size:13.4px}
+/*span{font-weight:700}*/
+table{table-layout:fixed;width:100%}
+table td{padding:2px}
+table.no-padding td{padding:0}
+table.bordered,table.bordered td{border:1px solid #000;border-collapse:collapse}
+table.not-bordered,table.not-bordered td{border:none;border-collapse:collapse}
+.relative{position:relative}
+table{table-layout:auto!important}
+/*table span{font-weight:400}*/
+table.bordered,table.bordered td{border:1px solid #000;border-collapse:collapse}
+table.not-bordered,table.not-bordered td{border:none;border-collapse:collapse}
+.paycheck{height:476px}
+.person,.taxes{height:100%}
+.paycheck td{font-size:.8em;padding:0;text-align:center}
+.signature{bottom:0;left:0;position:absolute;right:0;top:0}
+.disclaimer,.user-fill{-ms-transform:rotate(270deg);-webkit-backface-visibility:hidden;-webkit-transform:rotate(270deg);position:absolute;transform:rotate(270deg);width:474px}
+.disclaimer{font-size:10.5px;left:-229px;text-align:center;top:231px;white-space:nowrap}
+.user-fill{left:-185px;overflow:hidden;top:222px}
+.date-fill{float:left;text-align:center;width:167px}
+.name-fill{float:right;text-align:center;width:232px}
+.date-fill span,.name-fill span{display:block;font-weight:400}
+.date-fill span.fill-space{margin-top:2px;text-indent:26px}
+.name-fill span.fill-space{margin-top:2px;text-indent:10px}
+.date-fill span.fill-description{margin-top:4px}
+.name-fill span.fill-description{margin-top:4px}
+.header-container{height:56px}
+.signature-container{font-size:13.4px;padding:0;position:relative;width:74px}
+.person-container{height:41px}
+.person-info td{font-size:1em}
+.items-headers-container td{font-size:.65em;height:15px;vertical-align:middle}
+.summary-container td{height:30px}
+.taxes-container{height:45px}
+.header{line-height:1.65em;overflow:hidden;padding:1px 5px 0}
+.header-left{float:left;text-align:left;width:360px}
+.header-right{float:right;text-align:right}
+.header span{display:block;text-transform:uppercase}
+.header span.large{font-size:1.12em}
+.person-code{width:60px}
+.person-name{white-space:nowrap;width:280px}
+.person-cbo{width:65px}
+.person-company{width:65px}
+.person-local{width:65px}
+.person-department{width:34px}
+.person-sector{width:33px}
+.person-section{width:33px}
+.person-fl{width:33px}
+td.person-admission-label{font-size:.8em}
+.item-code{width:57px}
+.item-description{width:264px}
+.item-reference{width:57px}
+.item-amount{width:132px}
+.item-discount{width:133px}
+td.person-code,td.person-name,td.person-admission-date,td.item-code,td.item-description{text-align:left}
+td.person-code,td.person-name,td.item-code,td.item-description{padding-left:2px!important}
+.summary-container span{display:block}
+.summary-container span.summary-label{font-size:.8em;margin-top:1px}
+.summary-container span.summary-value{font-size:11px;margin-top:2px}
+.summary-2 td{vertical-align:middle}
+tr.taxes-labels td{height:18px;line-height:20px;width:17.6%}
+tr.taxes-values td{font-size:11px;vertical-align:top}
+.cut-here{border-bottom:1px dotted #000;box-sizing:content-box;height:20px;margin-bottom:20px;padding-bottom:5px;text-align:left;text-transform:uppercase}

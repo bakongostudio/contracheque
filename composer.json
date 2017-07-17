@@ -1,0 +1,22 @@
+{
+    "name": "ledat/contracheque",
+    "description": "Biblioteca para geração de contracheques em HTML e PDF.",
+    "type": "library",
+    "require": {
+        "league/plates": "3.*",
+        "h4cc/wkhtmltopdf-i386": "0.12.3",
+        "h4cc/wkhtmltopdf-amd64": "0.12.3",
+        "ext-bcmath": "*"
+    },
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Leda Ferreira",
+            "email": "ledat.ferreira@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"ledat\\contracheque\\": "src"}
+    },
+    "minimum-stability": "dev"
+}

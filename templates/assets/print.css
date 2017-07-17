@@ -1,0 +1,19 @@
+/**
+ * Found at:
+ * https://codepen.io/rafaelcastrocouto/pen/LFAes
+ */
+
+body{background:#ccc;font-family:Arial,sans-serif;padding-top:.5cm}
+page{background:#fff;box-shadow:0 0 .5cm rgba(0,0,0,0.5);display:block;margin:0 auto;margin-bottom:.5cm;padding:1cm}
+page[size="A4"]{height:29.7cm;width:21cm}
+page[size="A4"][layout="portrait"]{height:21cm;width:29.7cm}
+page[size="A3"]{height:42cm;width:29.7cm}
+page[size="A3"][layout="portrait"]{height:29.7cm;width:42cm}
+page[size="A5"]{height:21cm;width:14.8cm}
+page[size="A5"][layout="portrait"]{height:14.8cm;width:21cm}
+@media print {
+    body,page{box-shadow:0;margin:0}
+    body{padding:0}
+}
+body.print,body.print page{box-shadow:0;margin:0}
+body.print{padding:0}
