@@ -17,26 +17,29 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-/* @var $this League\Plates\Template\Template */
-/* @var $writing_pdf boolean */
+bcscale(8);
 
-?>
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?=$this->e($title)?></title>
-    <style type="text/css">
-        <?= $this->insert('assets/reset.css') ?>
-        <?= $this->insert('assets/print.css') ?>
-        <?= $this->insert('assets/contracheque.css') ?>
-    </style>
-</head>
-<body class="<?= $writing_pdf ? 'pdf' : '' ?>">
-    <page size="A4" class="relative">
-        <?= $this->section('content') ?>
-    </page>
-</body>
-</html>
+/**
+ * Retorna o nome do mês.
+ * @param string $mes
+ * @return string
+ */
+function contracheque_nome_mes($mes)
+{
+    $mes = str_pad($mes, 2, '0', STR_PAD_LEFT);
+    $meses = [
+        '01' => 'Janeiro',
+        '02' => 'Fevereiro',
+        '03' => 'Março',
+        '04' => 'Abril',
+        '05' => 'Maio',
+        '06' => 'Junho',
+        '07' => 'Julho',
+        '08' => 'Agosto',
+        '09' => 'Setembro',
+        '10' => 'Outubro',
+        '11' => 'Novembro',
+        '11' => 'Dezembro',
+    ];
+    return $meses[$mes];
+}

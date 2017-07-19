@@ -16,6 +16,7 @@
         }
     ],
     "autoload": {
+        "files": ["library/functions.php"],
         "psr-4": {"ledat\\contracheque\\": "src"}
     },
     "minimum-stability": "dev"

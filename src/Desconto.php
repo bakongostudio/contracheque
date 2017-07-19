@@ -65,6 +65,14 @@ class Desconto implements ItemInterface
     /**
      * @inheritdoc
      */
+    public function getReferencia()
+    {
+        return $this->referencia;
+    }
+
+    /**
+     * @inheritdoc
+     */
     public function getValor()
     {
         return $this->valor;

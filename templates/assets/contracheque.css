@@ -1,5 +1,5 @@
+.mono{font-family: monospace}
 body{font-size:13.4px}
-/*span{font-weight:700}*/
 table{table-layout:fixed;width:100%}
 table td{padding:2px}
 table.no-padding td{padding:0}
@@ -29,34 +29,32 @@ table.not-bordered,table.not-bordered td{border:none;border-collapse:collapse}
 .person-container{height:41px}
 .person-info td{font-size:1em}
 .items-headers-container td{font-size:.65em;height:15px;vertical-align:middle}
+.items-container td{padding:2px;text-align:right}
+.items-container td.item-description{text-align:left}
+.items-container li{height: 14px;line-height: 14px}
 .summary-container td{height:30px}
 .taxes-container{height:45px}
 .header{line-height:1.65em;overflow:hidden;padding:1px 5px 0}
-.header-left{float:left;text-align:left;width:360px}
-.header-right{float:right;text-align:right}
-.header span{display:block;text-transform:uppercase}
-.header span.large{font-size:1.12em}
+.header-left{float:left;text-align:left;width:60%}
+.header-right{float:right;text-align:right;width:40%}
+.header span{display:block;font-size:1.12em;text-transform:uppercase}
 .person-code{width:60px}
-.person-name{white-space:nowrap;width:280px}
-.person-cbo{width:65px}
-.person-company{width:65px}
-.person-local{width:65px}
-.person-department{width:34px}
-.person-sector{width:33px}
-.person-section{width:33px}
-.person-fl{width:33px}
-td.person-admission-label{font-size:.8em}
+.person-name{white-space:nowrap;width:360px}
+.person-cbo{width:111px}
+.person-admission{width:111px}
+/*td.person-admission-label{font-size:.8em}*/
 .item-code{width:57px}
 .item-description{width:264px}
 .item-reference{width:57px}
 .item-amount{width:132px}
 .item-discount{width:133px}
-td.person-code,td.person-name,td.person-admission-date,td.item-code,td.item-description{text-align:left}
-td.person-code,td.person-name,td.item-code,td.item-description{padding-left:2px!important}
+td.person-code,td.person-name,td.person-admission-date{text-align:left}
+td.person-code,td.person-name,td.item-code{padding-left:2px!important}
 .summary-container span{display:block}
 .summary-container span.summary-label{font-size:.8em;margin-top:1px}
-.summary-container span.summary-value{font-size:11px;margin-top:2px}
+.summary-container span.summary-value{font-size:11px;margin-top:2px;padding-right:2px;text-align:right;}
 .summary-2 td{vertical-align:middle}
+td.net-salary {padding:2px;text-align:right;}
 tr.taxes-labels td{height:18px;line-height:20px;width:17.6%}
 tr.taxes-values td{font-size:11px;vertical-align:top}
 .cut-here{border-bottom:1px dotted #000;box-sizing:content-box;height:20px;margin-bottom:20px;padding-bottom:5px;text-align:left;text-transform:uppercase}

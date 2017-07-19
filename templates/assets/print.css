@@ -15,5 +15,5 @@ page[size="A5"][layout="portrait"]{height:14.8cm;width:21cm}
     body,page{box-shadow:0;margin:0}
     body{padding:0}
 }
-body.print,body.print page{box-shadow:0;margin:0}
-body.print{padding:0}
+body.pdf,body.pdf page{box-shadow:0;margin:0}
+body.pdf{padding:0}
