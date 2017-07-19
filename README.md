@@ -4,7 +4,7 @@ Biblioteca para geração de contracheques em HTML e PDF.
 
 ## Instalação
 ```
-composer require "ledat/contracheque":"0.1"
+composer require "ledat/contracheque":"0.*"
 ```
 
 ## Exemplo
